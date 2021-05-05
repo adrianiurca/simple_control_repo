@@ -29,3 +29,11 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node 'undersea-doubte.delivery.puppetlabs.net' {
+  include role::webserver
+}
+
+node 'net-excavation.delivery.puppetlabs.net' {
+  include role::database_server
+}
