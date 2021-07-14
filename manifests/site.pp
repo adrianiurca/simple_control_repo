@@ -30,10 +30,10 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'undersea-doubte.delivery.puppetlabs.net' {
+node 'agent1' {
   include role::webserver
 }
 
-node 'net-excavation.delivery.puppetlabs.net' {
+node 'agent2' {
   include role::database_server
 }
